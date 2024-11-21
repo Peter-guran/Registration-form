@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express site</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+            <H2>Registration form.</H2>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lektion 1 Peter</title>
+        
+        <form id="form" action="/submit" method="post">
+          <h1>Registration</h1>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+          <div class="input-control">
+        <label for="your-name">Your Name</label>
+        <input type="text" name="name" id="your-name" required>
+      </div>
 
-<body>
+          <div class="input-control">
+        <label for="telephone">Your Phonenumber</label>
+        <input type="tel" name="number" id="telephone" required>
+      </div>
+        
+      <div class="input-control">
+        <label for="your">E-mail</label>
+        <input type="email" name="email" id="your" required>
+      </div>
 
+        <div class="input-control">
+         <label for="your">Your message</label>
+        <textarea name="text" id="text" placeholder="type your text here..." required></textarea>
+        <button type="submit">Send</button>
+        </div>
+    
+      </div>
+        </form>
+    
 
-    <div class="my-div">
-        <a href="Portfolio.html" class="button">
-            <p class="btn-text">Portfolio</p><img src="Minportfolio.png">
-        </a>
-
-        <a href="Kontakt.html" class="button">
-            <p class="btn-text">Kontakt</p><img src="kontaktamig.png">
-        </a>
-    </div>
-
-    <hr>
-    <div class="headline">
-        <p>Min Portfoliosida</p>
-
-    </div>
-    <div class="paragrph">
-        <p><i>Jag är programmerare som har focus på att hela tiden utveckla mig.<br>
-            För att uppfylla kundens önskemål.
-        </i></p>
-    </div>
-
-    <img src="webbsite.png">
-
-    <p></p>
-
-
-</body>
-
+  </body>
 </html>

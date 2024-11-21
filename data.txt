@@ -1,0 +1,1 @@
+{"name":"peter","number":"01234567","email":"pahittad@finns.se","text":"detta meddelande visar att jag har klarat detta om jag läst rätt. Skall dubbelkolla det."}
